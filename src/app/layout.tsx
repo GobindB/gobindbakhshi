@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Dancing_Script } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { Toaster } from "@/components/ui/sonner";
 import { ConstructionToast } from "@/components/construction-toast";
 import "./globals.css";
@@ -35,6 +36,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <ConstructionToast />
+        <Analytics />
       </body>
     </html>
   );
