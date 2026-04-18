@@ -15,8 +15,8 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Playground",
-  description: "Component playground",
+  title: "Gobind Bakhshi",
+  description: "Engineer, Designer, Strategist",
 };
 
 export default function RootLayout({
