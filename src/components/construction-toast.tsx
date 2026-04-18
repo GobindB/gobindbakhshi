@@ -6,7 +6,7 @@ import { toast } from "sonner";
 export function ConstructionToast() {
   useEffect(() => {
     const id = toast("Construction Zone", {
-      description: "This is a work in progress, building in public.",
+      description: (<span className="text-[#7c7c7c]">This is a work in progress, building in public.</span>),
       duration: Infinity,
       position: "bottom-right",
     });
