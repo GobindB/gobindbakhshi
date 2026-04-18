@@ -52,7 +52,7 @@ function ProjectCard({
       href={href}
       className="group overflow-hidden rounded-2xl p-1 leading-none shadow-[0_0_0_1px_#ffffff14] transition-shadow duration-200 ease-out hover:shadow-[0_0_0_1px_#ffffff21]"
     >
-      <div className="relative flex w-full flex-col items-center justify-center rounded-xl border border-[#1e1e1e] bg-[#080808] transition-colors duration-200 ease-out group-hover:border-[#2a2a2a]">
+      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-xl border border-[#1e1e1e] bg-[#080808] transition-colors duration-200 ease-out group-hover:border-[#2a2a2a]">
         {/* Chevron */}
         <span className="absolute top-3 right-3 flex shrink-0 -translate-x-0.5 scale-75 items-center justify-center text-[#7c7c7c] opacity-0 transition-[opacity,translate,scale] duration-300 ease-out group-hover:translate-x-0 group-hover:scale-100 group-hover:opacity-100">
           <svg className="size-[18px]" viewBox="0 0 24 24" fill="none">
@@ -153,7 +153,7 @@ export default function Home() {
       <div className="mt-8 text-white/85 [line-height:1.65] [text-wrap:pretty]">
         <p>
           I&apos;m the Principal AI Engineer
-          at{" "}<img src="/gq-logo.svg" alt="" className="inline size-4 align-[-2px]" />{" "}
+          at{" "}<img src="/gq-logo.svg" alt="" className="inline size-5 -mx-0.5 align-[-3px]" />{" "}
           <a
             href="https://greatquestion.co"
             target="_blank"
