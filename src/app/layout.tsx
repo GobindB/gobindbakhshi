@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Dancing_Script } from "next/font/google";
+import { Toaster } from "@/components/ui/sonner";
+import { ConstructionToast } from "@/components/construction-toast";
 import "./globals.css";
 
 const inter = Inter({
@@ -31,6 +33,8 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-[#101010] text-[#DBDBDB] font-sans">
         {children}
+        <Toaster />
+        <ConstructionToast />
       </body>
     </html>
   );
